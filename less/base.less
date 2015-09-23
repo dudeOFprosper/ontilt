@@ -1,4 +1,5 @@
 @orange: #FC5B1F;
+@grey: #F7F7F7;
 @black: #000;
 @teamNameSize: 36px; 
 @playerHeaderSize: 24px; 
@@ -73,6 +74,7 @@ header {
     font-size: @playerHeaderSize;
 }
 #matches {
+    border: 1px solid @black;
     text-align: center;
     width: 100%; 
 
@@ -80,6 +82,11 @@ header {
         th { 
             text-align: center;
         }
+    }
+    tr {
+        &:nth-child(2n){
+            background-color: @grey;
+        } 
     }
 }
 footer {
