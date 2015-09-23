@@ -4,6 +4,8 @@ $(document).ready(function(){
 
 function buildTable(){
     $.getJSON( "/data/season8.json", function( data ) {
+        $('#seasonTitle').html(data.season);
+        data = data.matches;
         var tbody = $("<tbody />"); 
         for(var i = 0; i < data.length; i++) {
             var row = $("<tr />");

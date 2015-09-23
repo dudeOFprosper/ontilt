@@ -1,10 +1,69 @@
-[
-    {
-        "round": "Week 1",
-        "map": "de_cbble",
-        "team": "Team Spaghetti Mom",
-        "score": "16 - 0",
-        "result": "W",
-        "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/176159/'><span>view</span></a>"
-    }
-]
+{
+    "season": "Season 8",
+    "matches": [
+        {
+            "round": "Week 1",
+            "map": "de_cbble",
+            "team": "Team Spaghetti Mom",
+            "score": "16 - 0",
+            "result": "W",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/176159/'><span>view</span></a>"
+        },
+        {
+            "round": "Week 2",
+            "map": "de_season",
+            "team": "WiseFrag",
+            "score": "2 - 16",
+            "result": "L",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/183672/'><span>view</span></a>"
+        },
+        {
+            "round": "Week 3",
+            "map": "de_inferno",
+            "team": "Retro 6",
+            "score": "8-16",
+            "result": "L",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/190626/'><span>view</span></a>"
+        },
+        {
+            "round": "Week 4",
+            "map": "de_train",
+            "team": "New Heretics Blue",
+            "score": "14 - 16",
+            "result": "L",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/197013/'><span>view</span></a>"
+        },
+        {
+            "round": "Week 5",
+            "map": "de_cache",
+            "team": "Hipfire",
+            "score": "0 - 0",
+            "result": "-",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/201785/'><span>view</span></a>"
+        },
+        {
+            "round": "Week 6",
+            "map": "de_overpass",
+            "team": "TBD",
+            "score": "",
+            "result": "",
+            "view": ""
+        },
+        {
+            "round": "Week 7",
+            "map": "de_dust2",
+            "team": "TBD",
+            "score": "",
+            "result": "",
+            "view": ""
+        },
+        {
+            "round": "Week 8",
+            "map": "de_mirage",
+            "team": "TBD",
+            "score": "",
+            "result": "",
+            "view": ""
+        }
+    ]
+}
