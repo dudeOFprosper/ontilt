@@ -11,7 +11,8 @@ module.exports = function(grunt) {
                 },
                 files: {
                    "css/base.css": "less/base.less",
-                   "css/fonts.css": "less/fonts.less" // destination file and source file
+                   "css/fonts.css": "less/fonts.less",
+                   "css/tablet.css": "less/tablet.less" // destination file and source file
                 }
             }
         },
