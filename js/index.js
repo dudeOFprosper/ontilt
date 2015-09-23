@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 function buildTable(){
-    $.getJSON( "/data/season8.json", function( data ) {
+    $.getJSON( "./data/season8.json", function( data ) {
         $('#seasonTitle').html(data.season);
         data = data.matches;
         var tbody = $("<tbody />"); 
