@@ -4,7 +4,7 @@
   "description": "Ontilt Gaming's Website",
   "main": "index.html",
   "scripts": {
-    "install": "npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt express --save-dev",
+    "install": "npm install grunt grunt-contrib-less grunt-contrib-watch jit-grunt --save-dev",
     "test": "grunt"
   },
   "repository": {
