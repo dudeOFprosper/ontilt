@@ -9,22 +9,28 @@ body {
 }
 
 header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fbfbfb+0,cfcfcf+100 */
+    background: #fbfbfb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fbfbfb 0%, #cfcfcf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#cfcfcf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fbfbfb 0%,#cfcfcf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fbfbfb 0%,#cfcfcf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fbfbfb 0%,#cfcfcf 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fbfbfb 0%,#cfcfcf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfbfb', endColorstr='#cfcfcf',GradientType=0 ); /* IE6-9 */
 
-    h1 {
-        font-family: "Walkway", Arial;
-        font-size: @teamNameSize;
-        text-align: center; 
-        text-transform: uppercase;
 
-        a {
-            color: #FC5B1F;
-        }
+    a {
+        background: url('../assets/logo.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: block;
+        height: 184px; 
+        width: auto;
+        line-height: 0; 
+        font-size: 0;
+        color: transparent; 
     }
-
-    img {
-        float: left;
-    }
-
 }
 
 #container { 
