@@ -1,9 +1,7 @@
 @orange: #FC5B1F;
 @black: #000;
-
 @teamNameSize: 36px; 
 @playerHeaderSize: 24px; 
-
 @footerColor: #222;
 
 body {
@@ -50,15 +48,6 @@ header {
         
         h2 {
             font-size: @playerHeaderSize; 
-            
-            a {
-                color: @orange;
-                
-                &:hover {
-                    color: @black; 
-                    text-decoration: none;
-                }
-            }
         }
 
         img {
@@ -79,3 +68,13 @@ footer {
 
 
 .clear { clear: both; }
+
+
+a {
+    color: @orange;
+    
+    &:hover {
+        color: @black; 
+        text-decoration: none;
+    }
+}
