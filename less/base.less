@@ -1,3 +1,9 @@
+@orange: #FC5B1F;
+@black: #000;
+
+@teamNameSize: 36px; 
+@playerHeaderSize: 24px; 
+
 body {
     font-family: Arial;
 }
@@ -6,8 +12,13 @@ header {
 
     h1 {
         font-family: "Walkway", Arial;
+        font-size: @teamNameSize;
         text-align: center; 
         text-transform: uppercase;
+
+        a {
+            color: #FC5B1F;
+        }
     }
 
     img {
@@ -17,7 +28,21 @@ header {
 }
 
 #container { 
+    padding: 20px;
 
+    .player {
+        h2 {
+            font-size: @playerHeaderSize; 
+            a {
+                color: @orange;
+                
+                &:hover {
+                    color: @black; 
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }
 
 footer {

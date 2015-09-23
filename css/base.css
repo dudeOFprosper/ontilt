@@ -1,1 +1,1 @@
-body{font-family:Arial}header h1{font-family:"Walkway",Arial;text-align:center;text-transform:uppercase}header img{float:left}footer{text-align:center}.clear{clear:both}
+body{font-family:Arial}header h1{font-family:"Walkway",Arial;font-size:36px;text-align:center;text-transform:uppercase}header h1 a{color:#fc5b1f}header img{float:left}#container{padding:20px}#container .player h2{font-size:24px}#container .player h2 a{color:#fc5b1f}#container .player h2 a:hover{color:#000;text-decoration:none}footer{text-align:center}.clear{clear:both}
