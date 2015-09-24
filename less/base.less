@@ -6,8 +6,20 @@
 @roleSize: 20px;
 @footerColor: #222;
 
-body {
+html, body {
     font-family: Arial;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* fixing the bouncing scrolling thing */
+body{ 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
 }
 
 header {
