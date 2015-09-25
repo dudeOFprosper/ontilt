@@ -37,24 +37,24 @@
             "round": "Week 5",
             "map": "de_cache",
             "team": "Hipfire",
-            "score": "0 - 0",
-            "result": "-",
+            "score": "8 - 16",
+            "result": "L",
             "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/201785/'><span>view</span></a>"
         },
         {
             "round": "Week 6",
             "map": "de_overpass",
-            "team": "TBD",
-            "score": "",
-            "result": "",
-            "view": ""
+            "team": "8 Below",
+            "score": "0 - 0",
+            "result": "-",
+            "view": "<a href='https://cevo.com/event/cs-globaloffensive/match/206465/'><span>view</span></a>"
         },
         {
             "round": "Week 7",
             "map": "de_dust2",
             "team": "TBD",
             "score": "",
-            "result": "",
+            "result": "-",
             "view": ""
         },
         {
@@ -62,7 +62,7 @@
             "map": "de_mirage",
             "team": "TBD",
             "score": "",
-            "result": "",
+            "result": "-",
             "view": ""
         }
     ]
