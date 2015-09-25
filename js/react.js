@@ -27,6 +27,52 @@ var PlayerSection = React.createClass({
     }
 });
 
+/*var match = React.createClass({
+    render: function() {
+        return (
+            <tr>
+                <td>Week 1</td>
+                <td>de_cbble</td>
+                <td>Team Spaghetti Mom</td>
+                <td>16 - 0</td>
+                <td>W</td>
+                <td>
+                    <a href="https://cevo.com/event/cs-globaloffensive/match/176159/"><span>view</span></a>
+                </td>
+            </tr>
+        );
+    }
+});
+
+var matchesSection = React.createClass({
+    render: function() {
+        var props = this.props;
+        var matches = props.matches
+          .map(funtion(match){
+            return <Game key={match.round} match={match} />;
+          });
+
+        return (
+            <h1> Season 8 </h1>
+            <table id="matches" border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Map(s)</th>
+                        <th>Team</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                        <th>View</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {matches}
+                </tbody>
+            </table>
+        );
+    }
+});*/
+
 var players = [{
         name : "Tyler \"paradoxmutch\" Crowe",
         link: "https://cevo.com/member/450988/",
