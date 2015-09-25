@@ -69,6 +69,14 @@ var players = [{
         role: "Guy",
         description: "The most consistent member of the team, and unsurprisingly the safest member as well. Kevin has only ever held B site twice in his life, and likes to play for retakes instead. He is known for his bait and run method of defending sites, leading him to have the highest survival rate on the team.",
         cevoLink: "https://cevo.com/member/217294/",         
+  }, 
+  {
+        name: "Bill \"Bill Pond\" Pond", 
+        link: "https://twitter.com/bill_pond",
+        image: "bill.jpg",
+        role: "Manager", 
+        description: "Easily the best player who isn't on the team. Survies on Five Guys, Monsters and his opponent's tears. Known for his love of prep talks and singing his heart out.", 
+        cevoLink: "https://cevo.com/member/198941/"
   }
 ];
 
